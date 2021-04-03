@@ -1,1 +1,1 @@
-console.log("hello world");
+(()=>{const t=document.querySelectorAll(".tab-btn"),e=document.querySelectorAll(".content");function o(t){const e=document.querySelector(t.target.dataset.target);e.classList.remove("show"),e.classList.add("show"),console.log(e.classList)}console.log(e),t.forEach((t=>{t.addEventListener("click",o)}))})();

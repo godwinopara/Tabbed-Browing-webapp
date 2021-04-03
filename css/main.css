@@ -1,1 +1,195 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/img/shop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: monospace;
+}
+
+span {
+  color: #f58634;
+}
+
+img {
+  height: 100px;
+  width: 120px;
+}
+
+.main-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+  overflow-y: scroll;
+  width: 100%;
+  background: #3b3b3b;
+  opacity: 0.9;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+}
+
+.header-container ul {
+  list-style: none;
+}
+
+.header-container a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  padding: 10px;
+  color: #fff;
+}
+
+.restaurant-motto {
+  text-align: center;
+  color: #fff;
+}
+
+.restaurant-motto h1 {
+  margin: 20px 0 10px;
+}
+
+.restaurant-motto p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.tabbed-menu-buttons {
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+  background: #f58634;
+  margin-bottom: 20px;
+}
+
+.tabbed-menu-buttons .active {
+  background: #fff;
+  color: #f58634;
+}
+
+.tabbed-menu-buttons div {
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+.tabbed-menu-buttons div a {
+  display: inline-block;
+  padding: 20px 10px 20px 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.tabbed-menu-content {
+  max-width: 500px;
+  width: 100%;
+  text-align: left;
+  margin: auto;
+}
+
+.tabbed-menu-content div {
+  text-align: left;
+}
+
+.tabbed-menu-content h2 {
+  margin-bottom: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #fff;
+}
+
+.menu {
+  display: none;
+}
+
+.menu-content {
+  display: grid;
+  grid-row-gap: 20px;
+  grid-column-gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+  margin-top: 20px;
+}
+
+.menu-content div {
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.menu-content div img {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.menu p {
+  text-align: center;
+  padding-top: 20px;
+  color: #f58634;
+  font-size: 0.8rem;
+}
+
+.contact {
+  display: none;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.contact h2 {
+  margin-bottom: 40px;
+  align-self: flex-start;
+}
+
+.contact form {
+  text-align: left;
+}
+
+.contact form div {
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.contact form div label {
+  text-align: left;
+}
+
+.contact form div input,
+.contact form div textarea {
+  border: none;
+  background: inherit;
+  border-bottom: 2px solid #fff;
+  padding: 5px;
+  outline: none;
+  width: 500px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact form div input:focus,
+.contact form div textarea:focus {
+  border-bottom: 2px solid #f58634;
+}
+
+.show {
+  display: block;
+}
+/*# sourceMappingURL=main.css.map */
