@@ -31,7 +31,6 @@ img {
   bottom: 0;
   left: 0;
   height: 100vh;
-  overflow-y: scroll;
   width: 100%;
   background: #3b3b3b;
   opacity: 0.9;
@@ -40,7 +39,7 @@ img {
 .header-container {
   display: flex;
   justify-content: space-between;
-  margin: 10px 20px;
+  margin: 0px 20px;
 }
 
 .header-container ul {
@@ -61,7 +60,7 @@ img {
 }
 
 .restaurant-motto h1 {
-  margin: 20px 0 10px;
+  margin: 5px 0 10px;
 }
 
 .restaurant-motto p {
@@ -94,6 +93,10 @@ img {
   color: #fff;
 }
 
+.tabbed-menu-buttons div a:hover {
+  color: #444444;
+}
+
 .tabbed-menu-content {
   max-width: 500px;
   width: 100%;
@@ -115,6 +118,7 @@ img {
 
 .menu {
   display: none;
+  margin-bottom: 50px;
 }
 
 .menu-content {
@@ -148,10 +152,19 @@ img {
   font-size: 0.8rem;
 }
 
+.menu span {
+  padding-left: 7px;
+}
+
 .contact {
   display: none;
   flex-direction: column;
   margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.contact span {
+  padding-right: 7px;
 }
 
 .contact h2 {
@@ -181,12 +194,20 @@ img {
   outline: none;
   width: 500px;
   color: #fff;
-  cursor: pointer;
 }
 
 .contact form div input:focus,
 .contact form div textarea:focus {
   border-bottom: 2px solid #f58634;
+}
+
+.contact form button {
+  padding: 15px 40px;
+  background: #f58634;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
 }
 
 .show {
